@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvzc0HHxWgUVe62zot1k17zyK_P8Yy7lA",
-  authDomain: "privatechatapp-15768.firebaseapp.com",
-  projectId: "privatechatapp-15768",
-  storageBucket: "privatechatapp-15768.appspot.com",
-  messagingSenderId: "795607460755",
-  appId: "1:795607460755:web:55e8fb9b8773eee9719666",
+  apiKey: "AIzaSyCaYr2cHbU59Vij-RcNgrHZwf0QONo-aEg",
+  authDomain: "cowin-4e7fe.firebaseapp.com",
+  projectId: "cowin-4e7fe",
+  storageBucket: "cowin-4e7fe.appspot.com",
+  messagingSenderId: "867488584494",
+  appId: "1:867488584494:web:89b00a8d52eb597eda20bf",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

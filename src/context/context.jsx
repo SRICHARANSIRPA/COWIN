@@ -4,7 +4,9 @@ const stateContext = React.createContext();
 
 export class StateProvider extends Component {
   state = {
-    userName: "charan",
+    userName: null,
+    userId: null,
+    Email: null,
     Gender: null,
     UIDNumber: null,
     DateofBirth: null,
@@ -12,6 +14,14 @@ export class StateProvider extends Component {
 
   handleuserName = (userName) => {
     this.setState({ userName });
+  };
+
+  handleuserId = (userId) => {
+    this.setState({ userId });
+  };
+
+  handleEmail = (Email) => {
+    this.setState({ Email });
   };
 
   handleGender = (Gender) => {
@@ -33,9 +43,18 @@ export class StateProvider extends Component {
     this.setState({ DateofBirth });
   };
   render() {
-    const { userName, Gender, UIDNumber, DateofBirth } = this.state;
+    const {
+      userName,
+      userId,
+      Email,
+      Gender,
+      UIDNumber,
+      DateofBirth,
+    } = this.state;
     const {
       handleuserName,
+      handleuserId,
+      handleEmail,
       handleGender,
       handleUIDNumber,
       handleDateofBirth,
@@ -44,10 +63,14 @@ export class StateProvider extends Component {
       <stateContext.Provider
         value={{
           userName,
+          userId,
+          Email,
           Gender,
           UIDNumber,
           DateofBirth,
           handleuserName,
+          handleuserId,
+          handleEmail,
           handleGender,
           handleUIDNumber,
           handleDateofBirth,

@@ -1,8 +1,12 @@
 .RegistrationForm {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
-  /* background-color: rgb(241, 247, 247); */
+  background-image: url("../Pictures/BGM1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

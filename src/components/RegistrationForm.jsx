@@ -6,7 +6,7 @@ export default class RegistrationForm extends Component {
     return (
       <div className="RegistrationForm">
         <h6>Register For Vaccination</h6>
-        <RegisterForm state={this.props.state} />
+        <RegisterForm />
       </div>
     );
   }
