@@ -5,7 +5,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .RegisterForm {
-  /* background-color: rgb(236, 217, 192); */
+  background-color: rgba(250, 248, 245, 0.514);
   min-height: 50vh;
   min-width: 30vw;
   display: flex;
