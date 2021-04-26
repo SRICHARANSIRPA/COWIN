@@ -20,7 +20,9 @@ class App extends Component {
                 <Redirect to="/Login" />
               )}
             </Route>
-            <Redirect to="/Login" />
+            <Route path="/">
+              <Redirect to="/Login" />
+            </Route>
           </Switch>
         </div>
       </BrowserRouter>
